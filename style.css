@@ -1,0 +1,30 @@
+h1{
+    font-family: 'Raleway', sans-serif;
+    color:black;
+    font-size:19px;
+    margin-left:50px;
+}
+
+h2{
+    margin:10px;
+}
+
+.btn-warning:hover{
+    background-color:rgb(247, 151, 116);
+    color:black;
+}
+
+img{
+    height:200px;
+    margin-top:20px;
+}
+.imageTechtonking{
+    animation-name:example;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px rgb(254, 197, 92);}
+    to{box-shadow: 1px 1px 38px rgb(215, 5, 5);}
+}
